@@ -86,8 +86,8 @@ python ai_translator/main.py
 
 ```bash
 # 将您的 api_key 设置为环境变量
-export OPENAI_API_KEY="sk-xxx"
-python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo
+export OPENAI_API_KEY="sk-"
+python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo --target_languages 冰岛语 日语
 ```
 
 这是使用 GLM 模型的例子：
