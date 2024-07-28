@@ -336,7 +336,74 @@ Transformer架构由编码器和解码器组成，分别处理输入和输出序
 
 希望这篇学习报告能够帮助你总结课程内容。如果需要进一步修改或添加内容，请告诉我。
 
-## Day 2 使用GPT生成课程总结
+## Day 2 
+### 1. GPT-4V的使用
+
+![gpt-4v.jpg](D:\IdeaProjects\openai-quickstart-zzx\openai_api\images\gpt-4v.jpg)
+
+这张图片显示的是一份英语语法笔记，涉及了多个语法点和句型的使用。以下是每一部分的概要和相关语法考点：
+
+1. **强调句型**：使用“It is/was + 强调内容 + that/who + 主句”这种结构来突出句子的某一部分。例如，"It is in Dalian that he was born." 强调地点在大连。
+
+2. **定语从句**：主要讨论了如何使用"who"以及"that"来连接和修饰名词。例如，"He is one of the boys who are in class 8." 使用"who"来修饰"the boys"，而在修饰"the only one"时使用"is"而不是"are"。
+
+3. **关系代词**：笔记中也讨论了如何在句子中使用关系代词如"whom"，"which"，和"that"来引导定语从句，比如"The way in which he explained is good."
+
+4. **被动句型**：如"It is known to us that..."用以表达被动语态。
+
+5. **so/such...that...结构**：用于表达程度或结果，例如"This is such a good book that I have read it."
+
+6. **比较结构**：讨论了表达改变状态的结构，如“China is no longer what it used to be.” 表示中国现在和以前不同了。
+
+总结来说，这些笔记覆盖了强调句型、定语从句、关系代词的选择和使用、被动语态、结果状语从句以及表达状态变化的句型。这些都是英语中常见且重要的语法点，对于提高英语写作和口语表达能力非常有帮助。
+### 2. ai translator的使用
+テストデータ  
+このデータセットには、OpenAIのAI言語モデルであるChatGPTが提供した2つのテストサンプルが含まれています。  
+これらのサンプルには、マークダウンテーブルと英語のテキストパッセージが含まれており、テキストおよびテーブル形式の両方をサポートする英中翻訳ソフトウェアのテストに使用できます。
+
+テキストテスト  
+速い茶色の狐が怠けた犬を飛び越える。このパンゴラムは、英語のアルファベットのすべての文字を少なくとも一度含んでいます。パンゴラムは、フォント、キーボード、その他のテキスト関連ツールをテストするためによく使用されます。英語に加えて、他の多くの言語にもパンゴラムがあります。言語の特有の特徴のため、構築が難しいパンゴラムもあります。
+
+テーブルテスト
+
+| 以下是您提供的信息翻译为日语并格式化为表格形式： |
+| --- |
+| ``` |
+| 果物    色    価格 (USD) |
+| リンゴ   赤    1.20 |
+| バナナ   黄    0.50 |
+| オレンジ  オレンジ 0.80 |
+| イチゴ   赤    2.50 |
+| ブルーベリー 青   3.00 |
+| キウイ   緑    1.00 |
+| マンゴー  オレンジ 1.50 |
+| ぶどう   紫    2.00 |
+| ``` |
+
+---
+
+
+Prófunargögn  
+Þessi gagnaflokkur inniheldur tvö prófunarpróf sem veitt eru af ChatGPT, gervigreindar tungumálamódel frá OpenAI.  
+Þessi prófunarpróf fela í sér markdown töflu og enskan texta, sem hægt er að nota til að prófa enska-í-kínverska þýðingu hugbúnaðar sem styður bæði texta- og töluform.
+
+Textaprófun  
+Hinn fljótur brúnn refur stekkur yfir letina hundinn. Þetta pangram inniheldur á hverju sinni alla bókstafina í ensku stafrófinu. Pangröm eru oft notuð til að prófa letur, lyklaborð og aðra textatengd verkfæri. Auk ensku eru pangröm í mörgum öðrum tungum. Sum pangröm eru erfiðari að smíða vegna sérsniðinna eiginleika tungumálsins.
+
+Töluprófun
+
+| Ávöxtur | Litur | Verð (USD)]   |
+| --- | --- | --- |
+| Banana | Gulur | 0.50]   |
+| Appelsína | Appelsínugulur | 0.80]   |
+| Sveppur | Rauður | 2.50]   |
+| Björnbjalla | Blár | 3.00]   |
+| Kíwi | Grænn | 1.00]   |
+| Mangó | Appelsínugulur | 1.50]   |
+| Þrúgur | Fjólublár | 2.00 |
+
+---
+
 
 ## Day 3 自行生成一个新的产品介绍知识库
 ![img.png](img.png)
